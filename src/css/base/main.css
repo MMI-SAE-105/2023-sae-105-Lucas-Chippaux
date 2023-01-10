@@ -6,3 +6,32 @@ body {
     margin: 0%;
     
 }
+
+h1 {
+    text-align: center;
+    font-family: 'Roboto', bold;
+    font-size: var(--heading-1);
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Montserrat', medium;
+    font-size: var(--heading-2);
+    
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Mada', sans-serif;
+    font-size: var(--subheading);
+    font-weight: normal;
+    
+}
+
+menu {
+    text-align: center;
+    font-family: 'Hind', bold;
+    font-size: var(--menu);
+    font-weight: normal;
+}
