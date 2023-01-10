@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippo • Page d'accueil</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body class="body">
+    <header>
+
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+        <img src="../public/icones/menu-open.svg" alt="menu">
+        </button>
+        <nav
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+        class="menu">
+
+        <ul class="menu">
+            <li><a class="menu__text" href="../fr/boccioni.html"> Umberto Boccioni</a></li>
+            <li><a class="menu__text" href="../fr/power.html"> Cyril Power</a></li>
+            <li><a class="menu__text" href="../fr/bourliouk.html"> David Bourliouk</a></li>
+            <li><a class="menu__text" href="../fr/cardoso.html"> Amadeo de Souza-Cardoso</a></li>
+            <li><a class="menu__text" href="../fr/billetterie.html"><img src="../public/icones/billet.svg" alt="icone billet"> Billetterie</a></li>
+        </ul>
+</nav>
+    <a class="header__flag" href="../en/homepage.html">
+        <img src="../public/icones/flag_eng.svg" alt="flag eng">
+    </a>
+
+    <a class="header__logo" href="../fr/index.html">
+        <img src="../public/icones/Filippo_noir.svg" alt="logo filippo">
+    </a>
+</div>
+    </header>
+
+<main>
+    <section class="index">
+        <article class="intro">
+            <h1 class="intro__text">
+                Bienvenue
+            </h1>
+            <h3 class="intro__index">
+                Filippo est une agence événementielle proposant divers articles et expositions porté sur le futurisme, notre mouvement artistique préféré ! Si vous êtes curieux et en soif d’apprendre, notre site est fait pour vous !
+            </h3>
+        </article>
+
+        <article class="card">
+            <a href="../fr/boccioni.html">
+                <h2 class="card__title">Les états d’âme d’Umberto Boccioni</h2>
+                <img class="card__img" src="../public/img/aperçu_Boccioni.webp"/>
+                <h3 class="card_description">Découvrez le génie artistique de Boccioni</h3>
+            </a>
+        </article>
+        <article class="card">
+            <a href="../fr/power.html">
+                <h2 class="card__title">Rythmes de la vie moderne</h2>
+                <img class="card__img" src="../public/img/aperçu_power.webp"/>
+                <h3 class="card_description">La vie moderne selon Cyril Power</h3>
+            </a>
+        </article>
+        <article class="card">
+            <a href="../fr/bourliouk.html">
+                <h2 class="card__title">Le fondateur Russe du Futurisme</h2>
+                <img class="card__img" src="../public/img/aperçu_bourliouk.webp"/>
+                <h3 class="card_description">La vie de David Bourliouk</h3>
+            </a>
+        </article>
+        <article class="card">
+            <a href="../fr/cardoso.html">
+                <h2 class="card__title">De Souza-Cardoso, l’insaisissable</h2>
+                <img class="card__img" src="../public/img/aperçu_cardoso.webp"/>
+                <h3 class="card_description">L’œuvre d’Amadeo de Souza-Cardoso</h3>
+            </a>
+        </article>
+
+        <article class="frise">
+            <h2>Frise chronologique des artistes</h2>
+            <img class="card__img"src="../public/img/Frise.png"/>
+            <h2>Aperçu des œuvres</h2>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <img class="footer__logo" src="../public/icones/Filippo_blanc.svg" alt="logo filippo blanc">
+            <h3 class="footer__text"><a href="../fr/ensavoirplus.html">En savoir plus</a></h3>
+            <h3 class="footer__text"><a href="../fr/contact.html">Contact</a></h3>
+        </ul>
+    </nav>
+    <ul class="footer_social">
+        <li>
+            <a href="https://facebook.com">
+                <img class="footer__social--icon" src="../public/icones/facebook_sae.svg" alt="icone facebook">
+            </a>
+        </li>
+        <li>
+            <a href="https://instagram.com">
+                <img class="footer__social--icon" src="../public/icones/instagram_sae.svg" alt="icone instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com">
+                <img class="footer__social--icon" src="../public/icones/twitter_sae.svg" alt="icone twitter">
+            </a>
+        </li>
+    </ul>
+    <a href="mailto:contact@filippo.com" class="footer__mail">contact@filippo.com</a>
+    <div class="footer__info">
+        <h3>Copyright © 2023</h3>
+        <h3>Tout droit réservés</h3>
+    </div>
+    <div class="footer__name">
+        <h3>Lucas CHIPPAUX</h3>
+    </div>
+
+</footer>
+</body>
+</html>

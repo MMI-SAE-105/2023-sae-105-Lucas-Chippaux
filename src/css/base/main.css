@@ -119,6 +119,13 @@ h3 {
 
 }
 
+.form__title {
+    text-align: center;
+    margin-bottom: -30px;
+    font-family: 'Roboto',bold;
+    font-size: var(--heading-1);
+    color: var(--noir-body);
+}
 .form_button {
     background-color: var(--blanc);
     border: none;
