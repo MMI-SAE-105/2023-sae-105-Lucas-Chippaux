@@ -8,6 +8,7 @@ footer {
 
 .footer__text {
     justify-content: center;
+    font-family: 'Mada';
     color: var(--blanc);
     list-style-type: none;
     position: relative;
@@ -17,10 +18,19 @@ footer {
 .footer_info {
     position: relative;
     text-align: center;
+    font-family: 'Mada';
     color: var(--blanc);
 }
 
 .footze__mail {
     color: var(--blanc);
+    font-family: 'Mada';
     text-align: center;
+}
+
+.footer__social--icon {
+    height: 30px;
+    width: 30px;
+    margin-inline: 10px;
+
 }
