@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
 <head>
     <link rel="stylesheet" href="../src/css/style.css">
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
         <img src="../public/icones/menu-open.svg" alt="menu">
         </button>
         <nav
-        id="mainNav" x_show="menuIsOpen" x-transition.duration.800m.scale.90
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
         class="menu">
 
         <ul class="menu">

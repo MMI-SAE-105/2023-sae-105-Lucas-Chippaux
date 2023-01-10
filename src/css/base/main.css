@@ -41,3 +41,9 @@ menu {
     font-size: var(--menu);
     font-weight: normal;
 }
+
+.index {
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
