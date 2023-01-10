@@ -131,3 +131,9 @@ h3 {
     border: none;
 
 }
+
+.article__img {
+    display: flex;
+    width: 150px;
+    margin: auto;
+}
