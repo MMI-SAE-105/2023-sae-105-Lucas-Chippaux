@@ -17,13 +17,13 @@ header {
 
 .header__logo {
     position: relative;
-    left: 18px;
+    left: 40px;
     top: 5px;
 
 }
 .header__flag {
     position: relative;
-    right: 150px;
+    left: 270px;
     top: 1px;
     background-color:var(--jaune);
     border-style: none;
