@@ -55,3 +55,22 @@ menu {
     margin-left: 5px;
     margin-right: 5px;
 }
+
+.intro__bienvenue {
+    color: var(--jaune);
+}
+
+.intro__information {
+    color: var(--white);
+}
+.card {
+    color: var(--jaune);
+}
+.card__title {
+    text-align: center;
+    color: var(--jaune);
+}
+.card__description {
+    text-align: center;
+    color: var(--jaune);
+}
