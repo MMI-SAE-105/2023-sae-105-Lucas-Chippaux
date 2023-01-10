@@ -1,4 +1,8 @@
 :root {
+    --texte1: 'Roboto' ;
+    --texte2: 'Montserrat';
+    --texte3: 'Mada';
+    --menu: 'Hind';
 /* Color styles */
 --jaune: rgba(255, 214, 0, 1);
 --bleu: rgba(11, 59, 115, 1);
