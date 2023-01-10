@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippo • Billetterie</title>
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body class="body">
+    <header>
+
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+        <img src="../public/icones/menu-open.svg" alt="menu">
+        </button>
+        <nav
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+        class="menu">
+
+        <ul class="menu">
+            <li><a class="menu__text" href="../fr/boccioni.html"> Umberto Boccioni</a></li>
+            <li><a class="menu__text" href="../fr/power.html"> Cyril Power</a></li>
+            <li><a class="menu__text" href="../fr/bourliouk.html"> David Bourliouk</a></li>
+            <li><a class="menu__text" href="../fr/cardoso.html"> Amadeo de Souza-Cardoso</a></li>
+            <li><a class="menu__text" href="../fr/billeterie.html"><img src="../public/icones/billet.svg" alt="icone billet"> Billetterie</a></li>
+        </ul>
+</nav>
+    <a class="header__flag" href="../en/ticketing.html">
+        <img src="../public/icones/flag_eng.svg" alt="flag eng">
+    </a>
+
+    <a class="header__logo" href="../fr/index.html">
+        <img src="../public/icones/Filippo_noir.svg" alt="logo filippo">
+    </a>
+</div>
+    </header>
+    <main>
+        <section class="billetterie">
+            <article class="intro">
+                <h1 class="intro__text">Bienvenue</h1>
+                <h3 class="intro__information">
+                    Filippo est une agence événementielle proposant divers articles et expositions porté sur le futurisme, notre mouvement artistique préféré ! Si vous êtes curieux et en soif d’apprendre, notre site est fait pour vous !
+                </h3>
+            </article>
