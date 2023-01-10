@@ -1,0 +1,28 @@
+.header__btnmenu {
+    position: relative;
+    z-index: 10;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    background:var(--jaune);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    border-radius: 0 0 0 50px;
+    list-style: none;
+}
+
+.menu__text {
+    position: relative;
+    right: 32px;
+    top: 12px;
+    color: var(--noir-body);
+    font-family: 'Hind', sans-serif;
+    list-style: none;
+}
