@@ -9,6 +9,7 @@ footer {
 .footer__text {
     justify-content: center;
     font-family: 'Mada';
+    font-size: var(--menu);
     color: var(--blanc);
     list-style-type: none;
     position: relative;
@@ -29,5 +30,5 @@ footer {
 
 .footer__mail {
     font-family: 'Mada';
-    font-size: var(--subheading);
+    font-size: var(--menu);
 }
