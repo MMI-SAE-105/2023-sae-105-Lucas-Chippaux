@@ -43,12 +43,13 @@ h3 {
     
 }
 
-menu {
+.menu__text {
     text-align: center;
     font-family: 'Hind', bold;
     font-size: var(--menu);
     font-weight: normal;
 }
+
 
 .index {
     margin-top: 60px;
