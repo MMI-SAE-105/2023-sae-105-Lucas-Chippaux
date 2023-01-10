@@ -24,7 +24,7 @@ header {
 .header__flag {
     position: relative;
     left: 265px;
-    top: 2px;
+    top: 1px;
     background-color:var(--jaune);
     border-style: none;
     margin-top: 3px;
