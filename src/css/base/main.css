@@ -11,6 +11,15 @@ body {
     
 }
 
+.body__white {
+    background-color: var(--blanc);
+    color:var(--noir-body);
+    max-width: 100%;
+    margin-top:0%;
+    margin: 0%;
+    
+}
+
 :any-link {
     cursor: pointer;
     color:var(--white);
@@ -73,6 +82,10 @@ h3 {
     color: var(--jaune);
     font-family:'Roboto', bold ;
 }
+.intro__text2 {
+    color: var(--noir-body);
+    font-family:'Roboto', bold ;
+}
 
 .intro__information {
     color: var(--blanc);
@@ -103,5 +116,11 @@ h3 {
 .icone__infos {
     position: relative;
     left: 150px;
+
+}
+
+.form_button {
+    background-color: var(--blanc);
+    border: none;
 
 }

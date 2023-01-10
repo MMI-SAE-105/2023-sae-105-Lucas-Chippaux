@@ -10,7 +10,7 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-<body class="body">
+<body class="body__white">
     <header>
 
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
@@ -39,37 +39,40 @@
 </div>
     </header>
     <main>
-        <section class="contact">
-            <article class="intro">
-                <h1 class="intro__text">
-                    Billetterie
-                </h1>
-                <h3 class="intro__information">
-                    Vous pouvez retrouvez ici les différents tarifs de l’exposition “Futurismo” du 13 avril au 23 juin 2021.
-                </h3>
-                <h3 class="intro__information">
-                Lieu de l’exposition : Fondation Cartier, 261 Bd Raspail, 75014 Paris
-                </h3>
-                <h3 class="intro__information">
-                • Plein tarif → 11€
-                </h3>
-                <h3 class="intro__information">
-                • Tarif réduit → 7,50€
-                <h3 class="intro__information">
-                • Réduction 13 - 25 ans → 5€
-                </h3>
-                <h3 class="intro__information">
-                • Fondation Cartier Pass → 18€ - 50€
-                </h3>
-                <h3 class="intro__information">
-                • Moins de 13 ans, Laissez-passer annuel, carte Icom, carte de presse, carte d'invalidité, Fondation Cartier Pass, Etudiants → Gratuit
-                <h3 class="card__description"><a href="https://fondation-cartier.tickeasy.com/fr-FR/tarifs">
-                Pour réserver vos places, cliquez ici!
-                </a>
-                </h3>
-                <img class="icone__infos" src="../public/icones/tickets.svg" alt="icone tickets">
-
-                </article>
+        <section class="page_contact">
+            <form class="form__container" action="#">
+              <h1 class="form__title">Contact</h1>
+      
+              <h3 class="form__input">
+                <label for="firstname">Nom, prénom</label>
+                  <input class="form_box" type="text" id="name" name="name" value="" placeholder="Votre nom, prénom">
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="lastname">E-mail</label>
+                  <input class="form_box" type="email" id="email" name="last-name" value="" placeholder="Votre adresse mail">
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="firstname">Téléphone</label>
+                  <input class="form_box" type="tel" id="téléphone" name="téléphone" value="" placeholder="Votre numéro de téléphone">     
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="birthday">Sujet de votre message</label>
+                  <input class="form_box" type="text" id="sujet" name="message" value="" placeholder="Sujet de votre message">     
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="address">Message</label>
+                  <textarea class="form_box" rows="6" id="message" name="message" value="" placeholder="Entrer votre message"> </textarea>
+              </h3>
+      
+              <button class="form_button"><img src="../public/icones/Bouton.svg" type="submit"></button>
+      
+            </form>
+          </section>
+          </main>
 
 
 <footer>
