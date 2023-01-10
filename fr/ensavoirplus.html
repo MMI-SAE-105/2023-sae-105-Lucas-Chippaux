@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippo • En savoir plus</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body class="body__white">
+    <header>
+
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+        <img src="../public/icones/menu-open.svg" alt="menu">
+        </button>
+        <nav
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+        class="menu">
+
+        <ul class="menu">
+            <li><a class="menu__text" href="../fr/boccioni.html"> Umberto Boccioni</a></li>
+            <li><a class="menu__text" href="../fr/power.html"> Cyril Power</a></li>
+            <li><a class="menu__text" href="../fr/bourliouk.html"> David Bourliouk</a></li>
+            <li><a class="menu__text" href="../fr/cardoso.html"> Amadeo de Souza-Cardoso</a></li>
+            <li><a class="menu__text" href="../fr/billeterie.html"><img src="../public/icones/billet.svg" alt="icone billet"> Billetterie</a></li>
+        </ul>
+</nav>
+    <a class="header__flag" href="../en/about.html">
+        <img src="../public/icones/flag_eng.svg" alt="flag eng">
+    </a>
+
+    <a class="header__logo" href="../fr/index.html">
+        <img src="../public/icones/Filippo_noir.svg" alt="logo filippo">
+    </a>
+</div>
+    </header>
+    <main>
+        <section class="page_contact">
+            <form class="form__container" action="#">
+              <h1 class="form__title">Contact</h1>
+      
+              <h3 class="form__input">
+                <label for="firstname">Nom, prénom</label>
+                  <input class="form_box" type="text" id="name" name="name" value="" placeholder="Votre nom, prénom">
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="lastname">E-mail</label>
+                  <input class="form_box" type="email" id="email" name="last-name" value="" placeholder="Votre adresse mail">
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="firstname">Téléphone</label>
+                  <input class="form_box" type="tel" id="téléphone" name="téléphone" value="" placeholder="Votre numéro de téléphone">     
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="birthday">Sujet de votre message</label>
+                  <input class="form_box" type="text" id="sujet" name="message" value="" placeholder="Sujet de votre message">     
+              </h3>
+      
+              <h3 class="form__input">
+                <label for="address">Message</label>
+                  <textarea class="form_box" rows="6" id="message" name="message" value="" placeholder="Entrer votre message"> </textarea>
+              </h3>
+      
+              <button class="form_button"><img src="../public/icones/Bouton.svg" type="submit"></button>
+      
+            </form>
+          </section>
+          </main>
+
+
+<footer>
+    <nav>
+        <ul>
+            <img class="footer__logo" src="../public/icones/Filippo_blanc.svg" alt="logo filippo blanc">
+            <h3 class="footer__text"><a href="../fr/ensavoirplus.html">En savoir plus</a></h3>
+            <h3 class="footer__text"><a href="../fr/contact.html">Contact</a></h3>
+        </ul>
+    </nav>
+    <ul class="footer_social">
+        <li>
+            <a href="https://facebook.com">
+                <img class="footer__social--icon" src="../public/icones/facebook_sae.svg" alt="icone facebook">
+            </a>
+        </li>
+        <li>
+            <a href="https://instagram.com">
+                <img class="footer__social--icon" src="../public/icones/instagram_sae.svg" alt="icone instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com">
+                <img class="footer__social--icon" src="../public/icones/twitter_sae.svg" alt="icone twitter">
+            </a>
+        </li>
+    </ul>
+    <a href="mailto:contact@filippo.com" class="footer__mail">contact@filippo.com</a>
+    <div class="footer__info">
+        <h3>Copyright © 2023</h3>
+        <h3>Tout droit réservés</h3>
+    </div>
+    <div class="footer__name">
+        <h3>Lucas CHIPPAUX</h3>
+    </div>
+
+</footer>
+</body>
+</html>
