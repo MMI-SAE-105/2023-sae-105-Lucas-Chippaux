@@ -5,3 +5,4 @@
 @import "utils/variables.css";
 @import "layout/footer.css";
 @import "components/galerie.css";
+@import "vendors/normalize.css";
