@@ -76,3 +76,8 @@ h3 {
     text-align: center;
     color: var(--jaune);
 }
+
+.frise {
+    color: var(--jaune);
+    font-family: 'Roboto', bold ;
+}
