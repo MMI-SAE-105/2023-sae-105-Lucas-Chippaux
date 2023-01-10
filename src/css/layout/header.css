@@ -9,9 +9,9 @@ header {
 
 }
 
-.header__btnmenu {
-    left: 315px;
-    top: -3px;
+.header__menuBtn {
+    left: 10px;
+    top: 0px;
     background-color:var(--jaune);
     border-style: none; 
 }
