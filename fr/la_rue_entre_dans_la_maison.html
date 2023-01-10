@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippo • La ville se lève</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body class="body">
+    <header>
+
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+        <img src="../public/icones/menu-open.svg" alt="menu">
+        </button>
+        <nav
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+        class="menu">
+
+        <ul class="menu">
+            <li><a class="menu__text" href="../fr/boccioni.html"> Umberto Boccioni</a></li>
+            <li><a class="menu__text" href="../fr/power.html"> Cyril Power</a></li>
+            <li><a class="menu__text" href="../fr/bourliouk.html"> David Bourliouk</a></li>
+            <li><a class="menu__text" href="../fr/cardoso.html"> Amadeo de Souza-Cardoso</a></li>
+            <li><a class="menu__text" href="../fr/billetterie.html"><img src="../public/icones/billet.svg" alt="icone billet"> Billetterie</a></li>
+        </ul>
+</nav>
+    <a class="header__flag" href="../en/homepage.html">
+        <img src="../public/icones/flag_eng.svg" alt="flag eng">
+    </a>
+
+    <a class="header__logo" href="../fr/index.html">
+        <img src="../public/icones/Filippo_noir.svg" alt="logo filippo">
+    </a>
+</div>
+    </header>
+
+<main>
+    <section class="index">
+        <article class="intro">
+            <h1 class="intro__text">
+                “La ville se lève” (1910) Umberto Boccioni
+            </h1>
+        </article>
+
+        <article class="card">
+                <img class="card__img" src="../public/img/aperçu_lvsl.webp"/>
+                <h2 class="card__title">Une peinture unique</h2>
+                <h3 class="intro__information">“La ville se lève” est un tableau réalisé entre 1910 et 1911 par le peintre italien Umberto Boccioni.</h3>
+                <h3 class="intro__information">Boccioni a peint ce tableau d’après la vue de Milan qu’il avait depuis le balcon de la maison qu’il habitait. </h3>
+                <h3 class="intro__information">Bien que pas très différent de ses plusieurs œuvres antérieures centrées sur les banlieues et en dépit de la présence d’éléments réalistes, tels que la construction, et l’espace rendu par la perspective, ce tableau est considéré comme la première œuvre vraiment futuriste d’Umberto Boccioni.</h3>
+                <h2 class="card__title">Analyse de l’œuvre</h2>
+                <h3 class="intro__information">La banlieue et l’environnement urbain en général ont constitué la base d’un grand nombre de tableaux de Boccioni. </h3>
+                <h3 class="intro__information">Ce tableau dépeint la construction d’une nouvelle ville, avec ses développements et la technologie. Des bâtiments en construction dans la banlieue avec des cheminées sont visibles dans la partie supérieure, mais la majeure partie de l’espace est occupé par des hommes et des chevaux fondus ensemble dans un effort dynamique.</h3>
+                <h3 class="intro__information">Boccioni souligne ainsi certains des éléments les plus typiques du futurisme, comme l’exaltation du travail humain et l’importance de la ville moderne, construite autour du confort moderne.</h3>
+                <h3 class="intro__information">Dans La ville se lève, Boccioni remplace en partie la vision naturaliste de ses œuvres antérieures par une vision plus dynamique. L’exaltation visuelle de la force et du mouvement, dont les protagonistes sont des hommes et des chevaux et non des machines répond parfaitement à la ligne de l’esprit futuriste. </h3>
+                <h3 class="intro__information">Ce détail est celui qui est considéré comme attestant du fait que Boccioni évolue encore à l’intérieur du symbolisme, qui rend le mythe visible à travers l’image, mais il change ce “ mythe “ en le détachant de l’archaïque exploration psychologique du monde humain, pour le réassigner au mythe de l’homme moderne, créateur d’un monde nouveau. </h3>
+                <img class="article__img"src="../public/img/photo_Boccioni2.webp" alt="photo artiste">
+                <h3 class="card__description">Photographie du peintre</h3>
+                <h3 class="intro__information">En d’autres termes, l’intention de l’artiste est de dépeindre le produit de l’époque industrielle en faisant passer le sujet de la représentation d’un moment normal de travail dans une cour quelconque à la célébration de l’idée de progrès industriel avec son avancée implacable, ce que résume la représentation du cheval inutilement retenu par les hommes accrochés à sa bride.</h3>
+                <h3 class="card__description"><a href="https://www.wikiart.org/fr/umberto-boccioni/la-ville-se-leve-1910">Pour en savoir plus, cliquez ici !</a></h3></a>
+
+
+            </article>
+    </section>
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <img class="footer__logo" src="../public/icones/Filippo_blanc.svg" alt="logo filippo blanc">
+            <h3 class="footer__text"><a href="../fr/ensavoirplus.html">En savoir plus</a></h3>
+            <h3 class="footer__text"><a href="../fr/contact.html">Contact</a></h3>
+        </ul>
+    </nav>
+    <ul class="footer_social">
+        <li>
+            <a href="https://facebook.com">
+                <img class="footer__social--icon" src="../public/icones/facebook_sae.svg" alt="icone facebook">
+            </a>
+        </li>
+        <li>
+            <a href="https://instagram.com">
+                <img class="footer__social--icon" src="../public/icones/instagram_sae.svg" alt="icone instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com">
+                <img class="footer__social--icon" src="../public/icones/twitter_sae.svg" alt="icone twitter">
+            </a>
+        </li>
+    </ul>
+    <a href="mailto:contact@filippo.com" class="footer__mail">contact@filippo.com</a>
+    <div class="footer__info">
+        <h3>Copyright © 2023</h3>
+        <h3>Tout droit réservés</h3>
+    </div>
+    <div class="footer__name">
+        <h3>Lucas CHIPPAUX</h3>
+    </div>
+
+</footer>
+</body>
+</html>
