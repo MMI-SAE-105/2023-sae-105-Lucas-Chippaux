@@ -58,10 +58,11 @@ menu {
 
 .intro__bienvenue {
     color: var(--jaune);
+    font-family:'Roboto', bold ;
 }
 
 .intro__information {
-    color: var(--white);
+    color: var(--blanc);
 }
 .card {
     color: var(--jaune);
