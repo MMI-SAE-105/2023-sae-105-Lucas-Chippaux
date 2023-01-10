@@ -22,15 +22,12 @@ footer {
     color: var(--blanc);
 }
 
-.footze__mail {
-    color: var(--blanc);
-    font-family: 'Mada';
-    text-align: center;
+.footer__social {
+    display: flex;
+    content: center;
 }
 
-.footer__social--icon {
-    height: 30px;
-    width: 30px;
-    margin-inline: 10px;
-
+.footer__mail {
+    font-family: 'Mada';
+    font-size: var(--subheading);
 }
