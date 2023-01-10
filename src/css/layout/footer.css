@@ -24,20 +24,17 @@ footer {
 }
 
 .footer__social {
+    justify-content: center;
     display: flex;
-    justify-content: space-between;
-    margin-inline: 80px;
-    padding: 30px;
-
+    padding: 15px;
+    gap: 5px;
 
 }
 
 .footer__social--icon {
-    display: flex;
-    justify-content: center;
-    width: 30px;
     height: 30px;
-
+    width: 30px;
+    margin-inline: 10px;
 
 }
 

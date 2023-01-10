@@ -57,12 +57,23 @@ h3 {
     margin-right: 5px;
 }
 
-.intro__bienvenue {
+.billetterie {
+    margin-top: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.intro__text {
     color: var(--jaune);
     font-family:'Roboto', bold ;
 }
 
 .intro__information {
+    color: var(--blanc);
+    text-align: left;
+}
+
+.intro__index {
     color: var(--blanc);
 }
 
@@ -81,4 +92,10 @@ h3 {
 .frise {
     color: var(--jaune);
     font-family: 'Roboto', bold ;
+}
+
+.icone__infos {
+    position: relative;
+    left: 150px;
+
 }
