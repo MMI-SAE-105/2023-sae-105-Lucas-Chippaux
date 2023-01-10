@@ -1,0 +1,8 @@
+body {
+    background-color: var(--noir-body);
+    color:var(--white);
+    max-width: 100%;
+    margin-top:0%;
+    margin: 0%;
+    
+}
