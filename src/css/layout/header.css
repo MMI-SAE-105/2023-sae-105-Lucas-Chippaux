@@ -10,7 +10,7 @@ header {
 }
 
 .header__menuBtn {
-    left: 315px;
+    left: 310px;
     top: 0px;
     background-color:var(--jaune);
     border-style: none; 
@@ -24,7 +24,7 @@ header {
 }
 .header__flag {
     position: relative;
-    right: 40px;
+    right: 47px;
     top: 2px;
     background-color:var(--jaune);
     border-style: none;
