@@ -114,9 +114,9 @@ h3 {
 }
 
 .icone__infos {
-    position: relative;
-    left: 150px;
-
+    display: flex;
+    width: 100px;
+    margin: auto;
 }
 
 .form__title {
