@@ -20,9 +20,9 @@
 
 .menu__text {
     position: relative;
-    right: 32px;
-    top: 35px;
+    right: 25px;
+    top: 31px;
     color: var(--noir-body);
-    font-family: 'Hind', sans-serif;
+    font-family: 'Hind', Impact;
     list-style-type: none;
 }
