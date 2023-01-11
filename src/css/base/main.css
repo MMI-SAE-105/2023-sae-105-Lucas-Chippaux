@@ -169,6 +169,11 @@ h3 {
     text-align: left;
 }
 
+.intro__information2 {
+    color: var(--noir-body);
+    text-align: left;
+}
+
 .intro__index {
     color: var(--blanc);
 }
@@ -192,7 +197,7 @@ h3 {
 
 .icone__infos {
     display: flex;
-    width: 100px;
+    width: 80px;
     margin: auto;
 }
 
