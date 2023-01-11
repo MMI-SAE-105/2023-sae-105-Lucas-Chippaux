@@ -13,3 +13,7 @@
     output_path="reports/pageartiste.html"
     path = "/fr/power.html" #la racine du site
 
+  [[plugins.inputs.audits]]
+    output_path="reports/pageoeuvre.html"
+    path = "/fr/the_time.html" #la racine du site
+
