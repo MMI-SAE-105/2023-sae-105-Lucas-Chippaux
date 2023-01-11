@@ -45,47 +45,35 @@
             <h3 class="intro__information2">Filippo est une agence événementielle proposant divers articles et expositions porté sur le futurisme, notre mouvement artistique préféré !</h3>
             <h3 class="intro__information2">Le futurisme est un mouvement littéraire et artistique européen du début du XXe siècle (de 1909 à 1920), qui rejette la tradition esthétique et exalte le monde moderne, en particulier la civilisation urbaine, les machines et la vitesse.</h3>
             <h3 class="intro__information2">Le futurisme est né en Italie autour du poète Filippo Tommaso Marinetti (Manifeste du futurisme, 1909). Auteurs de deux manifestes en 1910, les premiers peintres du mouvement, Giacomo Balla, Umberto Boccioni, Carlo Carrà, Gino Severini, Luigi Russolo (1885-1947), empruntent à la technique divisionniste et au cubisme pour faire interférer formes, rythmes, couleurs et lumières afin d'exprimer une « sensation dynamique/énergique », une simultanéité des états d'âme et des structures multiples du monde visible.</h3>
-            <div class="galerie__film">
-                <h2 class="intro__text2">Exemple d'artistes :</h2>
+            <div x-data="{galerieopen: false}" class="galerie__artist">
+                <h2 class="intro__text2">Cliquez pour voir les dates !</h2>
                 <ul class="galerie">
-                    <li onclick="document.body.classList.toggle('film-link-open--Alien')">
+                    <li>
                         <h3>Umberto Boccioni</h3>
-                        <img src="../public/img/Blade runner/alien.webp" alt="Affiche Alien">
-                        <div class="galerie__film-link--Alien">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=62.html">Plus d'informations</a>
-                        </div>
-                        <div class="galerie__film-description--Alien">
-                            <p>1882 - 1916</p>
-                        </div>
+                        <img src="../public/img/aperçu_Boccioni.webp" @click="galerieopen = ! galerieopen" alt="Affiche Boccioni">
+                        <div x-show="galerieopen" class="galerie__artiste-description--Boccioni">
+                            <h3>1882 - 1916</h3>
+                        </div>  
                     </li>
-                    <li onclick="document.body.classList.toggle('film-link-open--Thelma')">
+                    <li>
                         <h3>Cyril Power</h3>
-                        <img src="../public/img/Blade runner/thelma_louise.webp" alt="Affiche Thelma et Louise">
-                        <div class="galerie__film-link--Thelma">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=6787.html">Plus d'informations</a>
-                        </div>
-                        <div class="galerie__film-description--Thelma">
-                            <p>1872 - 1951</p>
+                        <img src="../public/img/aperçu_power.webp" @click="galerieopen = ! galerieopen" alt="Affiche Power">
+                        <div x-show="galerieopen" class="galerie__artiste-description--Power">
+                            <h3>1872 - 1951</h3>
                         </div>
                     </li>
-                    <li onclick="document.body.classList.toggle('film-link-open--1492')">
+                    <li>
                         <h3>David Bourliouk</h3>
-                        <img src="../public/img/Blade runner/1492.webp" alt="Affiche 1492">
-                        <div class="galerie__film-link--1492">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=7590.html">Plus d'informations</a>
-                        </div>
-                        <div class="galerie__film-description--1492">
-                            <p>1882 - 1967</p>
+                        <img src="../public/img/aperçu_bourliouk.webp" @click="galerieopen = ! galerieopen" alt="Affiche Bourliouk">
+                        <div x-show="galerieopen" class="galerie__artiste-description--Bourliouk">
+                            <h3>1882 - 1967</h3>
                         </div>
                     </li>
-                    <li onclick="document.body.classList.toggle('film-link-open--Gladiator')">
-                        <h3>Amadeo de Souza-Cardoso</h3>
-                        <img src="../public/img/Blade runner/Gladiator.webp" alt="Affiche Gladiator">
-                        <div class="galerie__film-link--Gladiator">
-                            <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=24944.html">Plus d'informations</a>
-                        </div>
-                        <div class="galerie__film-description--Gladiator">
-                            <p>1887 - 1918</p>
+                    <li>
+                        <h3>Cardoso</h3>
+                        <img src="../public/img/aperçu_cardoso.webp" @click="galerieopen = ! galerieopen" alt="Affiche Cardoso">
+                        <div x-show="galerieopen" class="galerie__artiste-description--Cardoso">
+                            <h3>1887 - 1918</h3>
                         </div>
                     </li>
                 </ul>
