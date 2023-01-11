@@ -11,13 +11,10 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-    
-</html>
-
 <body class="body__white">
-<title>404 | Page non trouvée</title>
 <h1>Page non trouvée</h1>
-<h2>ERREUR 404</h2>
+<h2>Il doit y avoir une erreur</h2>
+<img class="article__photo" src="./public/img/erreur_404.webp" alt="photo 404">
 <form action="https://google.com/" method="GET" 
     x-data="{ q:'', }" 
     x-on:submit="q = q + ' site:filippo.lucaschippaux.fr/'">
@@ -26,3 +23,4 @@
     <button type="submit">Rechercher</button>
 </form>
 </body>
+</html>
