@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippo • Bourliouk</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body class="body">
+    <header>
+
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+        <img src="../public/icones/menu-open.svg" alt="menu">
+        </button>
+        <nav
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+        class="menu">
+
+        <ul class="menu">
+            <li><a class="menu__text" href="../fr/boccioni.html"> Umberto Boccioni</a></li>
+            <li><a class="menu__text" href="../fr/power.html"> Cyril Power</a></li>
+            <li><a class="menu__text" href="../fr/bourliouk.html"> David Bourliouk</a></li>
+            <li><a class="menu__text" href="../fr/cardoso.html"> Amadeo de Souza-Cardoso</a></li>
+            <li><a class="menu__text" href="../fr/billetterie.html"><img src="../public/icones/billet.svg" alt="icone billet"> Billetterie</a></li>
+        </ul>
+</nav>
+    <a class="header__flag" href="../en/homepage.html">
+        <img src="../public/icones/flag_eng.svg" alt="flag eng">
+    </a>
+
+    <a class="header__logo" href="../fr/index.html">
+        <img src="../public/icones/Filippo_noir.svg" alt="logo filippo">
+    </a>
+</div>
+    </header>
+
+<main>
+    <section class="power">
+        <article class="intro">
+            <h1 class="intro__text">
+                Cyril Power
+            </h1>
+            <h1 class="intro__text">
+                (1872 - 1951)
+            </h1>
+        </article>
+
+        <article class="card">
+                <img class="card__img" src="../public/img/aperçu_power.webp"/>
+                <h2 class="card__title">Sa vie avant l'artiste</h2>
+                <h3 class="intro__information">Cyril Edward Power est né le 17 décembre 1872 à Redcliffe Street, Chelsea , l'aîné des enfants d'Edward William Power qui l'a encouragé à dessiner dès son plus jeune âge. 
+                <h3 class="intro__information">En août 1904, Power épousa Dorothy Mary Nunn à Bury St Edmunds , Suffolk , déménageant peu après à Putney à Londres où ils eurent un fils, Edward Raymond Roper-Powerbien.
+                <h3 class="intro__information">Power a travaillé comme architecte au ministère des Travaux publics sous Sir Richard Allington et a participé à la conception et à la construction du bureau de poste général, du bâtiment King Edward VII et également du bureau de poste au coin de Exhibition Road et de l'Imperial College , Kensington , Londres.</h3>
+                <h3 class="intro__information">En 1908, la famille a déménagé à Catford où leur deuxième fils Cyril Arthur Power est né. C'est à cette époque que Power devint maître de conférences en conception architecturale et en histoire à la School of Architecture, University College , Londres sous la direction du professeur Simpson et également au Goldsmiths College, New Cross, Londres.</h3>
+                <h3 class="intro__information">Cela a conduit à la publication de son ouvrage en trois volumes : A History of English Mediaeval Architecture par Talbot Press en 1912, qui présentait 424 de ses propres illustrations à l'encre et au stylo et des dessins détaillés.</h3>
+                <h2 class="card__title">Ses débuts artistiques</h2>
+                <h3 class="intro__information">Au début des années 1920, Power produisait des paysages à l'aquarelle et des paysages urbains ainsi que la première d'une quarantaine de pointes sèches.</h3>
+                <h3 class="intro__information">En 1918, Power rencontra Sybil Andrews , avec qui, il entretient une relation de travail qui dura une vingtaine d'années. Son plus jeune fils Edmund est né en décembre 1921 à Bury St Edmunds. Peu de temps après leur première exposition commune à Bury St Edmunds, la famille a déménagé à St Albans, Hertfordshire.</h4>
+                <h3 class="intro__information">Power et Andrews s'inscrivent à la Heatherley's School of Fine Art de Londres en 1922, lorsqu'il est également élu membre de la Royal Historical Society.</h3>
+                <img class="article__img"src="../public/img/rhs_logo.webp" alt="logo rhs">
+                <h3 class="card__description">Logo Royal Historical Society</h3>
+                <h3 class="intro__information">Power était un conférencier principal, généralement sur les sujets suivants : la forme et la structure des bâtiments, l'ornement et le symbolisme historiques et l'esquisse des styles architecturaux.</h3>
+                <h2 class="card__title">Nos articles sur ces peintures</h2>
+                <a href="../fr/the_tube_station.html">
+                <img class="article__img"src="../public/img/the_tube_station.webp" alt="tableau the tube station">
+                </a>
+                <h3 class="card__description"><a href="../fr/the_tube_station.html">“The Tube Station” (1935)</a></h3>
+                <a href="../fr/the_concerto.html">
+                <img class="article__img"src="../public/img/the_concerto.webp" alt="tableau the concerto">
+                </a>
+                <h3 class="card__description"><a href="../fr/the_concerto.html">“The Concerto” (1935)</a></h3>
+
+
+
+            </article>
+    </section>
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <img class="footer__logo" src="../public/icones/Filippo_blanc.svg" alt="logo filippo blanc">
+            <h3 class="footer__text"><a href="../fr/ensavoirplus.html">En savoir plus</a></h3>
+            <h3 class="footer__text"><a href="../fr/contact.html">Contact</a></h3>
+        </ul>
+    </nav>
+    <ul class="footer_social">
+        <li>
+            <a href="https://facebook.com">
+                <img class="footer__social--icon" src="../public/icones/facebook_sae.svg" alt="icone facebook">
+            </a>
+        </li>
+        <li>
+            <a href="https://instagram.com">
+                <img class="footer__social--icon" src="../public/icones/instagram_sae.svg" alt="icone instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com">
+                <img class="footer__social--icon" src="../public/icones/twitter_sae.svg" alt="icone twitter">
+            </a>
+        </li>
+    </ul>
+    <a href="mailto:contact@filippo.com" class="footer__mail">contact@filippo.com</a>
+    <div class="footer__info">
+        <h3>Copyright © 2023</h3>
+        <h3>Tout droit réservés</h3>
+    </div>
+    <div class="footer__name">
+        <h3>Lucas CHIPPAUX</h3>
+    </div>
+
+</footer>
+</body>
+</html>
