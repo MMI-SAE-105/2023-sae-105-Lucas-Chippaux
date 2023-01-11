@@ -21,3 +21,7 @@
     output_path="reports/billetterie.html"
     path = "/fr/billetterie.html" #la racine du site
 
+  [[plugins.inputs.audits]]
+    output_path="reports/savoirplus.html"
+    path = "/fr/ensavoirplus.html" #la racine du site
+
