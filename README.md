@@ -11,7 +11,7 @@
 # Rapport Lighthouse
 https://filippo.lucaschippaux.fr/reports/accueil.html
 https://filippo.lucaschippaux.fr/reports/pagecontact.html
-https://filippo.lucaschippaux.fr/reports/reports/pageartiste.html
+https://filippo.lucaschippaux.fr/reports/pageartiste.html
 
 
 
