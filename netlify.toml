@@ -6,5 +6,5 @@
     path = "/fr/index.html" #la racine du site
 
   [[plugins.inputs.audits]]
-    output_path="reports/contact.html"
+    output_path="reports/pagecontact.html"
     path = "/fr/contact.html" #la racine du site

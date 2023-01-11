@@ -10,7 +10,7 @@
 
 # Rapport Lighthouse
 https://filippo.lucaschippaux.fr/reports/accueil.html
-https://filippo.lucaschippaux.fr/reports/contact.html
+https://filippo.lucaschippaux.fr/reports/pagecontact.html
 
 
 
