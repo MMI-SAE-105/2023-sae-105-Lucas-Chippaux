@@ -1,0 +1,62 @@
+.galerie {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    margin-right: 50px;
+    text-align: center;
+    position: relative;
+    color: var(--white);
+    list-style-type: none;
+
+}
+
+.galerie__artiste {
+    padding-bottom: 20px;
+    
+}
+
+.galerie>li:hover {
+    cursor: pointer;
+}
+
+.galerie__artiste-link--Boccioni,
+.galerie__artiste-link--Power,
+.galerie__artiste-link--Bourliouk,
+.galerie__artiste-link--Cardoso {
+    visibility: hidden;
+    position: relative;
+    background-color: var(--bleu-2);
+    margin-top: -5px;
+    padding: 3px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: -20px;
+    transition: all 0.4s;
+    opacity: 0.2;
+    
+}
+
+.galerie-link-open--Boccioni .galerie__artiste-link--Boccioni,
+.galerie-link-open--Power .galerie__artiste-link--Power,
+.galerie-link-open--Bourliouk .galerie__artiste-link--Bourliouk,
+.galerie-link-open--Cardoso .galerie__artiste-link--Cardoso {
+    visibility: visible;
+    transition: ease-out 0.5s;
+    opacity: 1;
+}
+
+.galerie__artiste-description--Boccioni,
+.galerie__artiste-description--Power,
+.galerie__artiste-description--Bourliouk,
+.galerie__artiste-description--Cardoso {
+    transition: ease-out 0.5s;
+    opacity: 1;
+}
+
+.galerie-link-open--Boccioni .galerie__artiste-description--Boccioni,
+.galerie-link-open--Power .galerie__artiste-description--Power,
+.galerie-link-open--Bourliouk .galerie__artiste-description--Bourliouk,
+.galerie-link-open--Cardoso .galerie__artiste-description--Cardoso {
+    visibility: hidden;
+    transition: ease-in 0.3s;
+    opacity: 0.2;
+}
