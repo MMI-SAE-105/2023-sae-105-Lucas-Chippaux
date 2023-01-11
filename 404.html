@@ -11,15 +11,17 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
 </head>
 
-<body class="body__white">
-<h1>Page non trouvée</h1>
-<h2>Il doit y avoir une erreur</h2>
+<body class="body">
+<h1 class="intro__text">Page non trouvée</h1>
+<h1 class="intro__text">ERROR 404</h1>
+<a href="./fr/index.html">
+<h3 class="intro__index">Pour revenir sur le site, cliquez ici :</h2>
+<img class="logo__404"src="/public/icones/Filippo_blanc.svg" alt="logo flippo">
+</a>
+<img class="img__404"src="/public/img/erreur_404.webp" alt="img erreur">
 <form action="https://google.com/" method="GET" 
     x-data="{ q:'', }" 
     x-on:submit="q = q + ' site:filippo.lucaschippaux.fr/'">
-    <label for="q">Vous avez rencontré un problème</label>
-    <input type="text" id="q" name="q" x-model="q">
-    <button type="submit">Rechercher</button>
 </form>
 </body>
 </html>

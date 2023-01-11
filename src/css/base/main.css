@@ -243,3 +243,20 @@ h3 {
     display: flex;
     margin: auto;
 }
+
+.logo__404 {
+    display: flex;
+    width: 150px;
+    margin: auto;
+
+}
+
+.img__404 {
+    position: relative;
+    display: flex;
+    width: 400px;
+    margin: auto;
+    top: 20px;
+
+
+}
