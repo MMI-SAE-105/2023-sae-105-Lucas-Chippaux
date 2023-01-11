@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
+<head>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filippo • Cardoso</title>
+    <link rel="icon" href="../public/icones/logo_onglet.svg">
+    <script defer src="https://unpkg.com/alpinejs"></script>
+</head>
+
+<body class="body">
+    <header>
+
+        <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
+        class="header__menuBtn">
+        <img src="../public/icones/menu-open.svg" alt="menu">
+        </button>
+        <nav
+        id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
+        class="menu">
+
+        <ul class="menu">
+            <li><a class="menu__text" href="../fr/boccioni.html"> Umberto Boccioni</a></li>
+            <li><a class="menu__text" href="../fr/power.html"> Cyril Power</a></li>
+            <li><a class="menu__text" href="../fr/bourliouk.html"> David Bourliouk</a></li>
+            <li><a class="menu__text" href="../fr/cardoso.html"> Amadeo de Souza-Cardoso</a></li>
+            <li><a class="menu__text" href="../fr/billetterie.html"><img src="../public/icones/billet.svg" alt="icone billet"> Billetterie</a></li>
+        </ul>
+</nav>
+    <a class="header__flag" href="../en/homepage.html">
+        <img src="../public/icones/flag_eng.svg" alt="flag eng">
+    </a>
+
+    <a class="header__logo" href="../fr/index.html">
+        <img src="../public/icones/Filippo_noir.svg" alt="logo filippo">
+    </a>
+</div>
+    </header>
+
+<main>
+    <section class="bourliouk">
+        <article class="intro">
+            <h1 class="intro__text">
+                David Bourliouk 
+            </h1>
+            <h1 class="intro__text">
+                (1882 - 1967)
+            </h1>
+        </article>
+
+        <article class="card">
+                <img class="card__img" src="../public/img/photo_bourliouk1.webp"/>
+                <h2 class="card__title">Sa vie avant l'artiste</h2>
+                <h3 class="intro__information">David Bourliouk est né à Semyrotivka près du village de Riabouchky (actuellement dans le district de Lebedyn, oblast de Soumy en Ukraine). De 1898 à 1904, il prend des cours dans les écoles d'art de Kazan et d'Odessa, et à l'Académie Royale de Munich.</h3>
+                <h2 class="card__title">Ses débuts artistiques</h2>
+                <h3 class="intro__information">En 1904 il fréquente l'atelier de Cormon à Paris et en 1907 il effectue un séjour à Moscou et entre en contact avec l'Avant-Garde. En 1908 il organise la première exposition d'avant-gardistes le chaînon et publie son premier manifeste. Il est coauteur du manifeste futuriste russe “Une gifle au goût du public”.</h3>
+                <img class="article__img"src="../public/img/livre_david.webp" alt="livre david">
+                <h3 class="card__description">Livre co-écrit par l'artiste</h3>
+                <h3 class="intro__information">Peintre néo primitiviste futuriste, il étudie à l’Institut de peinture de sculpture et d’architecture de Moscou dont il est renvoyé en 1913.</h3>
+                <img class="article__photo"src="../public/img/Moscow_School_of_Painting.webp" alt="photo institut">
+                <h3 class="card__description">L'Institut de peinture de Moscou aujourd'hui</h3>
+                <h3 class="intro__information">De 1913 à 1915 il organise de nombreuses expositions et des conférences autour de l'Avant-garde et en 1917, il participe avec Malévitch et Tatline à la première Soirée Républicaine des Arts.</h3>
+                <h3 class="intro__information">Figure majeure de l’avant-garde jusqu’en 1915 où il émigre en Oural et passe via la Sibérie, le Japon et le Canada vers les États-Unis où il termine sa vie comme peintre et comme critique d’art. Il meurt à Long Island en 1967.</h3>
+                <h2 class="card__title">Nos articles sur ces peintures</h2>
+                <a href="../fr/the_time.html">
+                <img class="article__img"src="../public/img/the_time.webp" alt="tableau the time">
+                </a>
+                <h3 class="card__description"><a href="../fr/the_time.html">“The Time” (1910)</a></h3>
+                <a href="../fr/futuristic_woman.html">
+                <img class="article__img"src="../public/img/futuristic_woman.webp" alt="tableau the concerto">
+                </a>
+                <h3 class="card__description"><a href="../fr/futuristic_woman.html">“Futuristic Woman” (1911)</a></h3>
+
+
+
+            </article>
+    </section>
+</main>
+
+<footer>
+    <nav>
+        <ul>
+            <img class="footer__logo" src="../public/icones/Filippo_blanc.svg" alt="logo filippo blanc">
+            <h3 class="footer__text"><a href="../fr/ensavoirplus.html">En savoir plus</a></h3>
+            <h3 class="footer__text"><a href="../fr/contact.html">Contact</a></h3>
+        </ul>
+    </nav>
+    <ul class="footer_social">
+        <li>
+            <a href="https://facebook.com">
+                <img class="footer__social--icon" src="../public/icones/facebook_sae.svg" alt="icone facebook">
+            </a>
+        </li>
+        <li>
+            <a href="https://instagram.com">
+                <img class="footer__social--icon" src="../public/icones/instagram_sae.svg" alt="icone instagram">
+            </a>
+        </li>
+        <li>
+            <a href="https://twitter.com">
+                <img class="footer__social--icon" src="../public/icones/twitter_sae.svg" alt="icone twitter">
+            </a>
+        </li>
+    </ul>
+    <a href="mailto:contact@filippo.com" class="footer__mail">contact@filippo.com</a>
+    <div class="footer__info">
+        <h3>Copyright © 2023</h3>
+        <h3>Tout droit réservés</h3>
+    </div>
+    <div class="footer__name">
+        <h3>Lucas CHIPPAUX</h3>
+    </div>
+
+</footer>
+</body>
+</html>
