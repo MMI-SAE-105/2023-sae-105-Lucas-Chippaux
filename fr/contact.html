@@ -15,7 +15,8 @@
 
         <button aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen"
         class="header__menuBtn">
-        <img src="../public/icones/menu-open.svg" alt="menu">
+        <img x-show="!menuIsOpen" x-transition:enter-start="20" src="../public/icones/menu-open.svg" alt="menu">
+        <img x-show="menuIsOpen" x-transition:enter-end="20" src="../public/icones/cross.svg" alt="menu open">
         </button>
         <nav
         id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms
@@ -69,7 +70,7 @@
               </h3>
       
               <button class="form_button" type="submit">Envoyez</button>
-                    
+
             </form>
           </section>
           </main>
