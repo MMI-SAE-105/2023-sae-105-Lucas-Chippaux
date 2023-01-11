@@ -8,3 +8,7 @@
   [[plugins.inputs.audits]]
     output_path="reports/pagecontact.html"
     path = "/fr/contact.html" #la racine du site
+
+  [[plugins.inputs.audits]]
+    output_path="reports/pageartiste.html"
+    path = "/fr/power.html" #la racine du site
