@@ -4,7 +4,7 @@
     img {
       height: auto;
     }
-.carrousel_parent-ecrans {
+.carrousel_parent-tableaux {
       display: flex;
       width: 100%;
       overflow-x: scroll;
@@ -12,7 +12,7 @@
       scroll-snap-type: x mandatory;
     
     }
-.carrousel_ecran {
+.carrousel_tableaux {
     width: 60%;
     display: flex;
     justify-content: center;
@@ -26,66 +26,66 @@
       /* largeur du parent pour chaque enfant */
       /* permet de garder toute la largeur du parent */
     }
-.carrousel_ecran figure {
+.carrousel_tableaux figure {
       /* enlève les marges par défaut */
       margin: 0;
     }
 
-    .carrousel {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-      }
+.carrousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    }
       
-      .carrousel_btn {
-        position: absolute;
-        top: 50%; /* centre verticalement */
-        transform: translateY(-50%); /* methode du point mort */
-        width: 2rem;
-        height: 2rem;
-        background: rgba(0,0,0,0.5);
-        border-radius: 50%;
-        border: none;
-        display: grid;
-        place-content: center;
-        color: #fff;
-      }
+.carrousel_button {
+   position: absolute;
+   top: 50%; /* centre verticalement */
+   transform: translateY(-50%); /* methode du point mort */
+   width: 2rem;
+   height: 2rem;
+   background-color: var(--noir-body);
+   border-radius: 50%;
+   border: none;
+   display: grid;
+   place-content: center;
+}
       
-      .car__button{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-      }
-
-      .carrousel_btn-avant {
-        margin-top: 2%;
-        position: relative;
-        border: none;
-        background: none;
-        cursor: pointer;
-        width: 70px;
-        height: auto;
-      }
-      
-      .carrousel_btn-apres {
-        margin-top: 2%;
-        position: relative;
-        border: none;
-        background: none;
-        cursor: pointer;
-        width: 70px;
-        height: auto;
-      }
-
-.card__title__car{
-    text-align: center;
-    color: var(--text-color);
+.tableaux__button{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-color: var(--noir-body);
 }
 
-.card__img{
-        margin-inline: 10%;
-        width: 100%;
-        border-radius: 10px;
-        border: 2px solid var(--black);
-        margin-bottom: 0;
+.carrousel_button-back {
+   margin-top: 2%;
+   position: relative;
+   border: none;
+   background: none;
+   cursor: pointer;
+   width: 70px;
+   height: auto;
+}
+      
+.carrousel_button-next {
+   margin-top: 2%;
+   position: relative;
+   border: none;
+   background: none;
+   cursor: pointer;
+   width: 70px;
+   height: auto;
+}
+
+.card__title__tableaux{
+   text-align: center;
+   color: var(--jaune);
+}
+
+.card__tableaux{
+   margin-inline: 10%;
+   width: 100%;
+   border-radius: 10px;
+   border: 2px solid var(--jaune);
+   margin-bottom: 0;
 }
